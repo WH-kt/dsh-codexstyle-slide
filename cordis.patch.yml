@@ -1,0 +1,5 @@
+# reasoning-glow bundle patch: mounts the reasoning-effort slider plugin.
+# Installed as a profile layer through `dsh.bundle.patch`.
+- insert:
+    - id: reasoning-glow
+      name: dsh-reasoning-glow

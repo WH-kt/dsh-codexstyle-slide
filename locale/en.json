@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Reasoning Glow",
+    "description": "Replaces the composer model selector with a gradient reasoning-effort slider; the top level glows with drifting sparks."
+  }
+}

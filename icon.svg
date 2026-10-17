@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Reasoning Glow">
+  <defs>
+    <linearGradient id="rg-track" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7CA4FF"/>
+      <stop offset="0.55" stop-color="#A79CFF"/>
+      <stop offset="1" stop-color="#6F4FC9"/>
+    </linearGradient>
+    <linearGradient id="rg-plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2E3138"/>
+      <stop offset="1" stop-color="#202228"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#rg-plate)"/>
+  <rect x="10" y="29" width="44" height="10" rx="5" fill="#0d0f13" opacity="0.55"/>
+  <rect x="10" y="29" width="44" height="10" rx="5" fill="url(#rg-track)"/>
+  <circle cx="12" cy="41" r="7" fill="#fff"/>
+  <circle cx="36" cy="31" r="1.6" fill="#fff" opacity="0.95"/>
+  <circle cx="43" cy="37" r="1.2" fill="#EFE6FF" opacity="0.9"/>
+  <circle cx="49" cy="31.5" r="1.4" fill="#fff" opacity="0.85"/>
+  <circle cx="30" cy="36" r="1" fill="#E4DBFF" opacity="0.8"/>
+</svg>
