@@ -1,7 +1,7 @@
 {
   "name": "dsh-reasoning-glow",
   "version": "0.1.0",
-  "description": "Glowing reasoning-effort slider for the DeepSeek Harness composer",
+  "description": "Codex-style glowing reasoning-effort slider for the DeepSeek Harness composer",
   "keywords": [
     "dsh",
     "dsh-plugin",
@@ -31,11 +31,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WH-kt/dsh-reasoning-glow.git"
+    "url": "git+https://github.com/WH-kt/dsh-codexstyle-slide.git"
   },
-  "homepage": "https://github.com/WH-kt/dsh-reasoning-glow#readme",
+  "homepage": "https://github.com/WH-kt/dsh-codexstyle-slide#readme",
   "bugs": {
-    "url": "https://github.com/WH-kt/dsh-reasoning-glow/issues"
+    "url": "https://github.com/WH-kt/dsh-codexstyle-slide/issues"
   },
   "dsh": {
     "bundle": {

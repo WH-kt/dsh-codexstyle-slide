@@ -3,11 +3,22 @@
 [![npm version](https://img.shields.io/npm/v/dsh-reasoning-glow.svg)](https://www.npmjs.com/package/dsh-reasoning-glow)
 [![license](https://img.shields.io/npm/l/dsh-reasoning-glow.svg)](LICENSE)
 
-把 DeepSeek Harness（DSH）输入框里的模型选择器，换成一条会发光的推理强度滑块。
+把 DeepSeek Harness（DSH）输入框里的模型选择器，换成一条 **Codex 风格**的发光推理强度滑块。
 
-A glowing reasoning-effort slider for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) composer: drag the pill, the effort changes, and the top level lights up with drifting motes.
+A **Codex-style**, glowing reasoning-effort slider for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) composer: drag the pill, the effort changes, and the top level lights up with drifting motes.
 
-![dsh-reasoning-glow](https://raw.githubusercontent.com/WH-kt/dsh-reasoning-glow/main/docs/screenshot.webp)
+![dsh-codexstyle-slide](https://raw.githubusercontent.com/WH-kt/dsh-codexstyle-slide/main/docs/screenshot.webp)
+
+## Codex 风格 / Codex-style
+
+这个面板参考了 Codex 系推理强度选择器的视觉语言：
+
+- **档位名是主角**：居中的粗体档位名（如 `高` / `Max`），最高档用渐变字呈现
+- **模型名是配角**：紧挨其下的小号灰字 + `›`，点开才是模型列表
+- **一条粗胶囊轨道**：大号圆形白色拖钮，刻度点沿轨道排布，拖动即时预览
+- **最高档才有的流光**：蓝紫渐变铺满轨道，细碎粒子缓慢上浮、明暗呼吸
+
+和 DSH 的既有交互做了保留：拖动松手才写入会话、模型列表仍可从模型名进入、`↺` 一键回到服务商默认档位。
 
 ## 特性 / Features
 
@@ -33,8 +44,8 @@ dsh plugin add dsh-reasoning-glow
 ### 从源码
 
 ```sh
-git clone https://github.com/WH-kt/dsh-reasoning-glow.git
-dsh plugin add ./dsh-reasoning-glow
+git clone https://github.com/WH-kt/dsh-codexstyle-slide.git
+dsh plugin add ./dsh-codexstyle-slide
 ```
 
 或者：DSH 桌面端 → 设置 → 插件 → 用插件管理器安装这个本地目录。
