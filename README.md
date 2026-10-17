@@ -4,6 +4,8 @@
 
 A glowing reasoning-effort slider for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) composer: drag the pill, the effort changes, and the top level lights up with drifting motes.
 
+![dsh-reasoning-glow](https://raw.githubusercontent.com/WH-kt/dsh-reasoning-glow/main/docs/screenshot.webp)
+
 ## 特性 / Features
 
 - **胶囊轨道 + 圆形拖钮**：拖动、点击轨道、`←` `→` `↑` `↓` `Home` `End` 都能切换档位，松手才真正提交
