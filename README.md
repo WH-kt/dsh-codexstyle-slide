@@ -1,5 +1,8 @@
 # dsh-reasoning-glow
 
+[![npm version](https://img.shields.io/npm/v/dsh-reasoning-glow.svg)](https://www.npmjs.com/package/dsh-reasoning-glow)
+[![license](https://img.shields.io/npm/l/dsh-reasoning-glow.svg)](LICENSE)
+
 把 DeepSeek Harness（DSH）输入框里的模型选择器，换成一条会发光的推理强度滑块。
 
 A glowing reasoning-effort slider for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) composer: drag the pill, the effort changes, and the top level lights up with drifting motes.
@@ -18,11 +21,14 @@ A glowing reasoning-effort slider for the [DeepSeek Harness](https://github.com/
 
 ## 安装 / Install
 
-### 通过 CLI（npm 发布后）
+### 通过 npm
 
 ```sh
 dsh plugin add dsh-reasoning-glow
+# 若你的 CLI 要求显式 profile：dsh plugin --profile desktop add dsh-reasoning-glow
 ```
+
+也可以在 DSH 的插件管理器里按包名搜索安装。
 
 ### 从源码
 
